@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+/*Navbar */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    font-family: system-ui;
+}
+body{
+  background-color:#E3E7E8;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 120px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+/*ending of navbar*/
+
+/*content*/
+
+.heading {
+    background-image: url("https://i.postimg.cc/NLhPz7dh/output-onlinepngtools-1.png");
+    
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+span {
+    color: white;
+}
+h1 {
+    margin-left: 100px;
+    font-size: 60px;
+}
+.eoe {
+    margin-left: 500px;
+}
+.shipp {
+    background-image: url("https://i.postimg.cc/VN5DfZ0C/Hanging-on-Wall.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    height: 100vh;
+    padding-top: 10%;
+}
+.parent {
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top:20px;
+}
+
+.con,
+.cons {
+    height: 25%;
+    border-radius: 5px;
+    background-color: rgba(145, 146, 145, 0.783);
+    width: 40%;
+    opacity: 1;
+    margin-left: 20px;
+}
+.cons {
+    float: right;
+    margin-right: 30px;
+}
+.people {
+    float: right;
+    margin-right: 20px;
+}
+.names {
+    width: 500px;
+    background-color: rgb(222, 222, 222);
+    opacity: 1.5;
+    border-radius: 5px;
+    padding: 20px;
+    
+    margin-left: 50%;
+}
+.age,
+.agee {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.agee {
+    float: right;
+}
+.info {
+    margin-left: 20px;
+    text-align: center;
+}
+.infoe {
+    margin-right: 100%;
+    width: 50%;
+}
+/* footer {
+    background-color: rgb(166, 186, 150);
+    height: 100px;
+    width: 100%;
+}
+.parent {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    column-gap: 99px;
+
+    margin-top: 50px;
+}
+.name {
+    float: right;
+} */
+/*footer*/
+footer {
+  background-image: url("https://i.postimg.cc/bYxhhcJy/output-onlinepngtools-1-1.png");
+background-position: right;
+  background-repeat: no-repeat;
+ background-color: #619f67;
+  color: black;
+  font-size: 16px;
+  margin-top:50px;
+ 
+}
+footer * {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+ 
+}
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  align-items: stretch;
+}
+a {
+  color: black;
+}
+a:hover{
+  color:white;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+h3 {
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 1.4em;
+  white-space: nowrap;
+}
+.info {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.things:not(:first-child) {
+  margin-top: 0.8em;
+}
+.info, .things a {
+  color: black;
+  text-decoration: none;
+}
+.info, .things a:hover {
+  color: #23764a;
+}
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+
+.but, .sub {
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.but {
+  background-color: #6b9d56;
+  color: black;
+}
+div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+.social i {
+  color: black
+}
+
+.copyright {
+  padding: 0.3em 1em;
+
+}
+.footer-menu{
+  float: left;
+    margin-top: 10px;
+}
+
+.footer-menu a{
+  color: black;
+  padding: 6px;
+
+  text-decoration: none;
+}
+.footer-menu a:hover{
+  color: #619f67;
+}
+.copyright p {
+  font-size: 0.9em;
+  text-align: center;
+  background-color:white;
+  top:50px;
+}
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+
+}
+.up {
+  font-size:2rem;
+ 
+}
+span {
+  color:white;
+
+}
