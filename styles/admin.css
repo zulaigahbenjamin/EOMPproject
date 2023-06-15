@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+/*Navbar */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    padding: 0;
+    font-size: 1.2rem;
+    font-family: system-ui;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 120px;
+    height: auto;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+ .column-links {
+    list-style: none;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+/*ending of navbar*/
+
+.panel {
+   
+    font-size:larger;
+
+}
+
+/*admin*/
+
+#plants{
+   display:grid;
+   grid-template-columns:auto auto ;
+  
+    
+}
+
+#plantName, #plantImage, #plantPrice{
+height:40px;
+width:200px;
+justify-content: space-between ;
+margin:20px;
+
+}
+body {
+  background-color:#E3E7E8;
+}
+
+a {
+  color: black;
+}
+a:hover{
+  color:white;
+}
+/*footer*/
+   footer {
+    background-image: url("https://i.postimg.cc/bYxhhcJy/output-onlinepngtools-1-1.png");
+background-position: right;
+    background-repeat: no-repeat;
+   background-color: #619f67;
+    color: black;
+    font-size: 16px;
+    margin-top:50px;
+   
+  }
+  footer * {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+   
+  }
+  .row {
+    padding: 1em 1em;
+  }
+  .row.primary {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    align-items: stretch;
+  }
+  .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 15em;
+  }
+  h3 {
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+    white-space: nowrap;
+  }
+  .info {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .things:not(:first-child) {
+    margin-top: 0.8em;
+  }
+  .info, .things a {
+    color: black;
+    text-decoration: none;
+  }
+  .info, .things a:hover {
+    color: #23764a;
+  }
+  .about p {
+    text-align: justify;
+    line-height: 2;
+    margin: 0;
+  }
+  
+  .but, .sub {
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  .but {
+    background-color: #6b9d56;
+    color: black;
+  }
+  div.social {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.4em;
+    flex-direction: row;
+    margin-top: 0.5em;
+  }
+  .social i {
+    color: black
+  }
+  
+  .copyright {
+    padding: 0.3em 1em;
+
+  }
+  .footer-menu{
+    float: left;
+      margin-top: 10px;
+  }
+  
+  .footer-menu a{
+    color: black;
+    padding: 6px;
+  
+    text-decoration: none;
+  }
+  .footer-menu a:hover{
+    color: #619f67;
+  }
+  .copyright p {
+    font-size: 0.9em;
+    text-align: center;
+    background-color:white;
+    top:50px;
+  }
+  @media screen and (max-width: 850px) {
+    .row.primary {
+      grid-template-columns: 1fr;
+    }
+  
+  }
+  .up {
+    font-size:2rem;
+   
+  }
+  span {
+    color:white;
+
+  }
