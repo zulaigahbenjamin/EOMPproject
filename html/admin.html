@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/admin.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/assets/Screenshot 2023-06-09 120627.png" alt="Logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li class="links"><a href="/index.html">Home</a></li>
+                <li class="links"><a href="/html/about.html">About</a></li>
+                <li class="links"><a href="/html/product.html">Product</a></li>
+                <li class="links"><a href="/html/contact.html">Contact</a></li>
+                <li class="links"><a href="/html/admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <HR>
+    <h1 class="panel">The Admin Panel</h1>
+    <hr>
+    <!-- section for addig new plants -->
+    <h2 class="pl">Add Plant</h2>
+    <form id="addPlantForm">
+        <input type="text" id="plantName" placeholder="Enter the Plant Name" required>
+        <input type="text" id="plantImage" placeholder="enter the Image URL" required>
+        <input type="number" id="plantPrice" placeholder="Enter the price please" required>
+        <button type="submit">Add Plant</button>
+    </form>
+
+    <!-- dispplay plants  -->
+    <h2>Plants</h2>
+    <ul id="plantList"></ul>
+    <script src="/script/admin.js"></script>
+</body>
+<footer>
+    <div class="footer">
+        <div class="grid-container">
+
+            <!-- 
+            <ul class="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/html/about.html">About</a></li>
+                <li><a href="/html/product.html">Product</a></li>
+                <li><a href="/html/contact.html">Contact</a></li>
+                <li><a href="/html/admin.html">Admin</a></li>
+            </ul> -->
+
+
+           
+
+        </div>
+    </div>
+</footer>
+
+
+<footer>
+    <!-- <div class="grid-container">
+        <p class="grid-item">&copy; 2023 Plant Website. All rights reserved.</p>
+    </div>
+    <div class="grid-container">
+        <p>Krombrrom Street</p>
+        <p>South London</p>
+        <p>United Kingdom</p>
+        <p>7785</p>
+    </div>
+    <div class="grid-container">
+         <p>edenonearth@gmail.com</p>
+            <p>zulaigahbenjamini01@gmail.com</p>
+            <p>074 333 8888</p>
+    </div> -->
+
+    <footer>
+        <div class="row primary">
+          <div class="column about">
+        
+        <div class="column subscribe">
+         <h3>Newsletter</h3>
+          <div>
+           <input type="email" class="sub" placeholder="Your email id here" />
+           <button class="but">Subscribe</button>
+          </div>
+        
+        </div>
+         
+        
+          <div class="social">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+            <i class="fa-brands fa-twitter-square"></i>
+            <i class="fa-brands fa-youtube-square"></i>
+            <i class="fa-brands fa-whatsapp-square"></i>
+          </div>
+        </div>
+        
+        <div class="column links">
+        <h3>Some Links</h3>
+        
+         <ul class="info">
+        
+          <li class="things">
+           <a href="#faq">F.A.Q</a>
+          </li>
+          <li class="things">
+           <a href="#cookies-policy">Cookies Policy</a>
+          </li>
+          <li class="things">
+           <a href="#terms-of-services">Terms Of Service</a>
+          </li>
+          <li class="things">
+           <a href="#support">Support</a>
+          </li>
+         </ul>
+        
+        </div>
+        <div class="column links">
+          <h3>Quick Links</h3>
+           <ul>
+            <li>
+             <a href="/html/about.html">F.A.Q</a>
+            </li>
+            <li>
+             <a href="#cookies-policy">Cookies Policy</a>
+            </li>
+            <li>
+            <a href="#terms-of-services">Terms Of Service</a>
+            </li>
+            <li>
+            <a href="#support">Support</a>
+            </li>
+          </ul>
+        </div>
+        
+          <p class="up">
+              Get 10% off your next<span> order.</span>
+          <br>
+             Sign up for a newslet<span>ter.</span>
+          </p>
+        </div>
+        
+        <div class="row copyright">
+          <div class="footer-menu">
+        
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Contact</a>
+          <a href="">Blog</a>
+          <a href="">Social</a>
+        
+          </div>
+           <p>Copyright &copy; 2021 Foolish Developer</p>
+        </div>
+</footer>
+
+</html>
