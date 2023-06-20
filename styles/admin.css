@@ -20,7 +20,9 @@ header {
     background-color: white;
     padding: 20px;
 }
-
+nav a:hover {
+  color:grey;
+}
 .logo img {
     max-width: 120px;
     height: auto;

@@ -44,6 +44,9 @@ nav a {
     color: #333;
     font-weight: bold;
 }
+nav a:hover {
+  color:grey;
+}
 
 /* Responsive styles */
 @media (max-width: 768px) {
@@ -80,8 +83,8 @@ nav a {
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
-    width: 100%;
+   
+   
 }
 .column {
     flex: 50%;
@@ -97,7 +100,7 @@ nav a {
 .pics {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
-    margin-left: 0;
+   
     padding-bottom: 20px;
     margin-top: 2%;
     padding-right: 10px;
@@ -114,39 +117,37 @@ nav a {
     }
 }
 .img1 {
-    margin-bottom: 10px;
+    
     width: 100%;
-    margin-left: 10px;
+    height:min-content;
+   
 }
 /*lady*/
 .img2 {
     width: 100%;
-    margin-bottom: 20px;
-    margin-left: 10px;
-
-    margin-top: 0;
+   height:min-content;
+  
 }
 .img3 {
-    margin-bottom: 10px;
+   margin-bottom:30px;
     width: 100%;
-    padding-left: 20px;
-    margin-left: 0;
+    height:min-content;
+  
 }
 /*last*/
 .img4 {
-    margin-bottom: 10px;
+   margin:0;
     width: 100%;
-
-    padding-left: 20px;
-    padding-right: 20px;
+height:340px;
+    
 }
 .middle {
-    margin-left: 560px;
+   
     margin-top: 50px;
     overflow: visible;
     position: absolute;
-    top: 890px;
-    right: 31%;
+    top: 966px;
+    right: 30%;
     height:400px;
 }
 body{
@@ -173,7 +174,7 @@ a:hover{
 @media (max-width: 800px) {
     
     .picquote {
-width:80%;
+width:100%;
 margin:0;
 margin-top:70%;
 padding-left:20px
@@ -203,14 +204,14 @@ margin-right:0;
         
     }
     .img1, .img2, .img3, .img4 {
-       margin-right:20px;
+       margin:0px;
     }
     .pics{
         display:grid;
         grid-template-columns: none;
     }
     .img3{
-        margin-top:40%;
+        
         margin-left:0;
 
         padding-left:0;
@@ -224,11 +225,22 @@ margin-right:0;
         margin-bottom:0;
        
     }
-    .column {
-         background-color: lightgoldenrodyellow;
+    .img-box {
+      display:grid;
+      grid-template-columns: repeat(1.1fr);
     }
     p {
         text-align: center;
+    }
+    .row {
+      padding:0em;
+    }
+    .column {
+      padding: 0 0 0 0em;
+    }
+    .plant {
+      display:flex;
+      flex-direction: column;
     }
 }
 
@@ -244,7 +256,6 @@ margin-right:0;
     color: black;
     margin-left:30px;
     margin-top:20px;
-    background-image: url(/assets/Rectangle\ 1.png);
 }
 
 

@@ -12,15 +12,19 @@ li {
   font-size: 1.2rem;
   font-family: system-ui;
 }
-
+body {
+  background-color: #E3E7E8;
+}
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  padding: 20px;
+margin:20px;
 }
-
+nav a:hover {
+  color:grey;
+}
 .logo img {
   max-width: 120px;
   height: auto;
@@ -69,7 +73,8 @@ nav a {
 .img {
   background-image: url("https://i.postimg.cc/PJdQ2wYL/IMG-7107-3.png");
   background-repeat: no-repeat;
-  height: 100vh;
+background-size: contain;
+
 }
 .work {
   font-size: larger;
@@ -86,8 +91,12 @@ p {
   color: black;
 }
 .text {
-  margin-top: 40%;
-  margin-left: 20%;
+  margin-top: 100px;
+ 
+  text-align:center;
+}
+.pic {
+  margin-top:50px;
 }
 .coin {
   width: 100%;
@@ -132,7 +141,24 @@ body {
   display:grid;
   grid-template-columns: repeat(2, 1fr);
   margin-top:50px;
+
   
+}
+.one {
+float:left;
+font-size: larger;
+}
+
+.two {
+  float:right;
+  font-size:larger;
+  padding-right:20px;
+}
+ 
+
+.desc {
+  margin-top:-200px;
+ 
 }
 a {
   color: black;
@@ -162,10 +188,10 @@ a:hover{
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  margin-top: 20%;
+ 
   background-image: url("https://i.postimg.cc/GtQjBwqT/background1-1.png");
   background-image: no-repeat;
-  background-size:cover
+  background-size:cover;
 }
 .container .content {
   display: flex;
@@ -208,7 +234,7 @@ a:hover{
 .content .left .details .text-one,
 .content .left .details .text-two {
   font-size: 14px;
-  color: #afafb6;
+  color: black;
 }
 .container .content .right {
   width: 75%;

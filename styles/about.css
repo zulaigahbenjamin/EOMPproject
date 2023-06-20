@@ -22,7 +22,9 @@ header {
     background-color: white;
     padding: 20px;
 }
-
+nav a:hover {
+  color:grey;
+}
 .logo img {
     max-width: 120px;
     height: auto;
@@ -117,7 +119,6 @@ h1 {
     margin-right: 20px;
 }
 .names {
-    width: 500px;
     background-color: rgb(222, 222, 222);
     opacity: 1.5;
     border-radius: 5px;
@@ -281,7 +282,26 @@ div.social {
   .row.primary {
     grid-template-columns: 1fr;
   }
-
+  .eoe {
+    margin-left:0;
+    font-size:0.9rem;
+  }
+  h1 {
+    margin-left:0;
+  }
+.about p {
+  line-height:1;
+}
+.parent{
+  display: flex;
+  flex-direction: column;
+}
+.car {
+  margin-left:0;
+}
+.hi{
+  margin:0px;
+}
 }
 .up {
   font-size:2rem;
